@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_margin="14dp"
+        >
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Your Name"
+                android:textSize="28sp"
+                android:id="@+id/name_textview"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Your Email"
+                android:textSize="18dp"
+                android:id="@+id/email_textview"></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </androidx.cardview.widget.CardView>
+        
+
+
+
+
+</layout>
